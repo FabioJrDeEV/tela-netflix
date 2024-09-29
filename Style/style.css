@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("/imagem/background.jpg") rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 150px;
+    margin: 10px 0 0 35px;
+
+}
+
+header .btn {
+    margin: 10px 35px 0 0;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background: red;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 44px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 500px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container h2 {
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    border: none;
+}
+
+.box .assine {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+ p {
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
