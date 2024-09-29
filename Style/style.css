@@ -17,6 +17,11 @@ header {
     justify-content: space-between;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 header img {
     width: 150px;
     margin: 10px 0 0 35px;
